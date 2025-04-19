@@ -1,0 +1,24 @@
+hashing and Encryption are two major diffrent . what are algorithum use use there digest?hash will ber the Same 
+
+we can downloud any thing and check there SHA and match with us with there private website . like vsCode node (as you want).
+04_Basics of Hashing ( main) => openssl dgst -sha256 "D:\VSCodeUserSetup-x64-1.99.3.exe"
+SHA2-256(D:\VSCodeUserSetup-x64-1.99.3.exe)= 8811efc173b919e3c7fdda431382d7d50ca2fc145eadae870ec97b172ea9b47c(this is sm on vscode website)
+
+
+
+certutil -hashfile new.txt SHA256
+SHA256 hash of new.txt:
+b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9
+
+openssl dgst -sha256 new.txt
+SHA2-256(new.txt)= b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9
+
+
+
+IMPORTANT NOTE : 
+sha1 is Collision(means two file has are sm , deceted by google) , 
+04_Basics of Hashing ( main) => openssl dgst -sha1 "shattered-2.pdf"
+SHA1(shattered-2.pdf)= 38762cf7f55934b34d179ae6a4c80cadccbb7f0a
+
+04_Basics of Hashing ( main) => openssl dgst -sha1 "shattered-1.pdf"
+SHA1(shattered-1.pdf)= 38762cf7f55934b34d179ae6a4c80cadccbb7f0a
