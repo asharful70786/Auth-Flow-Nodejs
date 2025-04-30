@@ -2,10 +2,10 @@
 //bcrypt is a Key Derivation Function (KDF, that is used to hash passwords ) & also a Npm package
 
 //step to use 
-  //npm i bcrypt
+//npm i bcrypt
 
-  import crypto from 'crypto'; //importing crypto module
-  import bcrypt from 'bcrypt'; //importing bcrypt module
 
-  let salt = bcrypt.genSaltSync(10); //generating salt with 10 rounds of salting
-   console.log(salt)
+import bcrypt from 'bcrypt'; //importing bcrypt module
+
+let salt = bcrypt.genSaltSync(10); //generating salt with 10 rounds of salting
+console.log(salt)
