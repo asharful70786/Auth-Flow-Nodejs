@@ -1,0 +1,4 @@
+
+email is server  just like tcp and udp;
+//nodemailer is client of email server which helps to send email using smtp protocol
+//nodemailer is a module which helps to send email using smtp protocol

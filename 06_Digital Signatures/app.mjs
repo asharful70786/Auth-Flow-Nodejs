@@ -12,3 +12,4 @@ let writeStream = createWriteStream('bitto.docs');
 
 writeStream.write(docs);
 writeStream.end(signature);
+
